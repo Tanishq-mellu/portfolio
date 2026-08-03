@@ -6,6 +6,17 @@ import { ThemeToggle } from "@/components/navbar/ThemeToggle";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Hero } from "@/components/hero/Hero";
+import { Hero } from "@/components/hero/Hero";
+import { Research } from "@/components/research/Research";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Research />
+    </>
+  );
+}
 
 export default function Home() {
   return (
