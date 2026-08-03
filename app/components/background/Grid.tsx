@@ -18,9 +18,34 @@ export function Grid() {
             strokeWidth="1"
           />
         </pattern>
+
+        <pattern
+          id="engineering-grid-large"
+          width="256"
+          height="256"
+          patternUnits="userSpaceOnUse"
+        >
+          <path
+            d="M256 0H0V256"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+          />
+        </pattern>
       </defs>
 
-      <rect width="100%" height="100%" fill="url(#engineering-grid)" />
+      <rect
+        width="100%"
+        height="100%"
+        fill="url(#engineering-grid)"
+      />
+
+      <rect
+        width="100%"
+        height="100%"
+        fill="url(#engineering-grid-large)"
+        className="opacity-30"
+      />
     </svg>
   );
 }
