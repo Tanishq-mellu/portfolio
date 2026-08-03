@@ -4,6 +4,17 @@ import { Logo } from "@/components/navbar/Logo";
 import { NavLinks } from "@/components/navbar/NavLinks";
 import { ThemeToggle } from "@/components/navbar/ThemeToggle";
 import { Navbar } from "@/components/navbar/Navbar";
+import { Navbar } from "@/components/navbar/Navbar";
+import { Hero } from "@/components/hero/Hero";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
+}
 
 export default function Home() {
   return (
