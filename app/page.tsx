@@ -1,4 +1,43 @@
 import Image from "next/image";
+import { NavLinks } from "@/components/navbar/NavLinks";
+import { Logo } from "@/components/navbar/Logo";
+import { NavLinks } from "@/components/navbar/NavLinks";
+import { ThemeToggle } from "@/components/navbar/ThemeToggle";
+import { Navbar } from "@/components/navbar/Navbar";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+
+      <main className="container-page py-32">
+        <h1 className="font-mono text-6xl">
+          Building Secure Quantum Communication Systems
+        </h1>
+      </main>
+    </>
+  );
+}
+
+export default function Home() {
+  return (
+    <main className="container-page py-10">
+      <div className="flex items-center justify-between">
+        <Logo />
+        <NavLinks />
+        <ThemeToggle />
+      </div>
+    </main>
+  );
+}
+
+export default function Home() {
+  return (
+    <main className="p-10">
+      <NavLinks />
+    </main>
+  );
+}
 
 export default function Home() {
   return (
