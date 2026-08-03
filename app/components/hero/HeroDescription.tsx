@@ -9,9 +9,9 @@ export function HeroDescription() {
         text-foreground/70
       "
     >
-      Research portfolio focused on Quantum Cryptography,
-      Quantum Key Distribution, Network Security, Cybersecurity,
-      Open Source Software, and Secure Systems Engineering.
+      Advancing secure quantum communication through research in
+      quantum cryptography, resilient distributed systems, Network Security, Cybersecurity,
+      Open Source Engineering and Secure Systems Engineering.
     </p>
   );
 }

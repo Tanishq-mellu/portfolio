@@ -1,7 +1,10 @@
+import { HeroMetrics } from "./HeroMetrics";
 import { HeroActions } from "./HeroActions";
 import { HeroBadge } from "./HeroBadge";
 import { HeroDescription } from "./HeroDescription";
 import { HeroHeading } from "./HeroHeading";
+import { ScrollIndicator } from "./ScrollIndicator";
+
 
 export function Hero() {
   return (
@@ -21,6 +24,10 @@ export function Hero() {
       <HeroDescription />
 
       <HeroActions />
+
+      <HeroMetrics />
+
+      <ScrollIndicator />
     </section>
   );
 }

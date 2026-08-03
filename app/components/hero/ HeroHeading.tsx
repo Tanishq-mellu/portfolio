@@ -3,13 +3,14 @@ export function HeroHeading() {
     <h1
       className="
         mt-8
-        max-w-5xl
+        max-w-4xl
         font-mono
-        text-6xl
+        text-5xl
+        sm:text-6xl
+        lg:text-8xl
         font-semibold
         leading-tight
         tracking-tight
-        lg:text-8xl
       "
     >
       Building Secure
