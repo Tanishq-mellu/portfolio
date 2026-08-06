@@ -40,6 +40,7 @@ export function ContributionCard({
         <Link
           href={github}
           target="_blank"
+          rel="noopener noreferrer"
           className="text-foreground/60 hover:text-[#65FF9A]"
         >
           <ArrowUpRight className="h-5 w-5" />
