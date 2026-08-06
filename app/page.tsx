@@ -10,6 +10,7 @@ import { Hero } from "@/components/hero/Hero";
 import { Research } from "@/components/research/Research";
 import { OpenSource } from "@/components/open-source/OpenSource";
 import { Projects } from "@/components/projects/Projects";
+import { Publications } from "@/components/publications/Publications";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Research />
       <OpenSource />
       <Projects />
+      <Publications />
     </>
   );
 }
