@@ -13,10 +13,11 @@ import { Projects } from "@/components/projects/Projects";
 import { Publications } from "@/components/publications/Publications";
 import { About } from "@/components/about/About";
 import { Contact } from "@/components/contact/Contact";
+import { Footer } from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div id="top">
       <Hero />
       <Research />
       <OpenSource />
@@ -24,7 +25,8 @@ export default function Home() {
       <Publications />
       <About />
       <Contact />
-    </>
+      <Footer />
+    </div>
   );
 }
 
