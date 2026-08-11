@@ -12,6 +12,7 @@ import { OpenSource } from "@/components/open-source/OpenSource";
 import { Projects } from "@/components/projects/Projects";
 import { Publications } from "@/components/publications/Publications";
 import { About } from "@/components/about/About";
+import { Contact } from "@/components/contact/Contact";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Projects />
       <Publications />
       <About />
+      <Contact />
     </>
   );
 }
