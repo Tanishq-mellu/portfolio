@@ -1,7 +1,6 @@
 import { Logo } from "./Logo";
 import { NavLinks } from "./NavLinks";
 import { SocialLinks } from "./SocialLinks";
-import { ThemeToggle } from "./ThemeToggle";
 
 export function Navbar() {
   return (
@@ -23,10 +22,7 @@ export function Navbar() {
           <NavLinks />
         </div>
 
-        <div className="flex items-center gap-2">
-          <SocialLinks />
-          <ThemeToggle />
-        </div>
+        <SocialLinks />
       </div>
     </header>
   );
